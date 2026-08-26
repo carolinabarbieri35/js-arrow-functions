@@ -66,6 +66,25 @@ const nessunaMaiuscola = parole.every((element) => element === element.toLowerCa
 console.log(nessunaMaiuscola);
 
 
+// data una lista di città, verifica se c'è qualche città composta da più parole (es. 'New York')
+
+
+const città = ['Roma', 'Abu Dhabi', 'New York', 'Venezia', 'Città del Messico'];
+
+const cittàComposte = città.filter((element) => element.trim().includes(' '));
+//  {
+
+//     if (element.trim().includes(' ')) {
+
+//         return element;
+
+//     }
+// });
+
+console.log(cittàComposte);
+
+
+
 
 
 
