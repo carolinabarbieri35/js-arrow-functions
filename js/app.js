@@ -30,6 +30,26 @@ const esameNonSuperato = esami.find((elem) => {
 console.log(esameNonSuperato);
 
 
+// data una lista di consumi elettrici giornalieri in kWh, stampa ogni consumo. Usa console.warn per i consumi alti
+
+
+const consumi = [5, 7, 12, 1500, 36, 152];
+
+consumi.forEach((element) => {
+
+    if (element > 100) {
+        console.warn(`consumo alto: ${element}`);
+
+
+    } else {
+        console.log(element);
+
+    }
+})
+
+
+
+
 
 
 
