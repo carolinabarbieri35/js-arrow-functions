@@ -48,6 +48,21 @@ consumi.forEach((element) => {
 })
 
 
+// data una lista di nomi, trova solo quelli che hanno una lunghezza tra 3 e 5 caratteri
+
+const nomi = ['Anna', 'Lucilla', 'Bernadette', 'Giulia', 'Marco', 'Lele'];
+
+const nomiCorti = nomi.filter((element) => element.length > 2 && element.length < 6);
+
+console.log(nomiCorti);
+
+
+
+
+
+
+
+
 
 
 
