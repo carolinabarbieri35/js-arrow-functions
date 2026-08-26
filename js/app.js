@@ -93,6 +93,21 @@ const calorieConvertite = calorie.map((element) => (element * 4.184).toFixed(2))
 console.log(calorieConvertite);
 
 
+// data una lista di ore lavorate ogni giorno della settimana, stampa per ogni giorno il tempo relativo lavorato, in minuti
+
+const oreLavorate = [8, 7.5, 6, 8, 4, 0, 0];
+
+const giorni = ['Lunedì', 'Martedì', 'Mercoledì', 'Giovedì', 'Venerdì', 'Sabato', 'Domenica'];
+
+const oreInMinuti = oreLavorate.map((element, index) => ({
+    Giorno: giorni[index],
+    Minuti: element * 60
+}));
+
+console.table(oreInMinuti);
+
+
+
 
 
 
