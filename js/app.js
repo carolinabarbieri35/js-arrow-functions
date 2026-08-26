@@ -6,7 +6,7 @@ console.log('hello js');
 const lista = [30, 40, 7, 82, 56];
 
 const prezziScontati = lista.map((elem) => {
-    return elem - 1.20;
+    return elem * 0.8;
 
 });
 
@@ -55,6 +55,21 @@ const nomi = ['Anna', 'Lucilla', 'Bernadette', 'Giulia', 'Marco', 'Lele'];
 const nomiCorti = nomi.filter((element) => element.length > 2 && element.length < 6);
 
 console.log(nomiCorti);
+
+
+// data una lista di parole, verifica che nessuna abbia un carattere maiuscolo
+
+const parole = ['ciao', 'Arrivederci', 'MaMMamiA', 'nuovo'];
+
+const nessunaMaiuscola = parole.every((element) => element === element.toLowerCase());
+
+console.log(nessunaMaiuscola);
+
+
+
+
+
+
 
 
 
