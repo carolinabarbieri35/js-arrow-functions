@@ -6,7 +6,7 @@ console.log('hello js');
 const lista = [30, 40, 7, 82, 56];
 
 const prezziScontati = lista.map((elem) => {
-    return elem * 0.8;
+    return (elem * 0.8).toFixed(2);
 
 });
 
@@ -82,6 +82,16 @@ const cittàComposte = città.filter((element) => element.trim().includes(' '));
 // });
 
 console.log(cittàComposte);
+
+
+// data una lista di calorie consumate, convertile in kJ
+
+const calorie = [50, 36, 173, 25, 94];
+
+const calorieConvertite = calorie.map((element) => (element * 4.184).toFixed(2));
+
+console.log(calorieConvertite);
+
 
 
 
