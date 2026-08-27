@@ -157,6 +157,18 @@ const votiInDecimi = votiEsami.map((element) => (element / 3).toFixed(1));
 console.log(votiInDecimi);
 
 
+// data una lista di prezzi al supermercato, stampa ogni prezzo con l'IVA al 22% inclusa
+
+const prezzi = [15, 22, 30, 106, 84, 7];
+
+const calcoloIva = prezzi.map((element) => (element * 22) / 100 + element);
+
+
+
+console.log(calcoloIva);
+
+
+
 
 
 
