@@ -168,6 +168,18 @@ const calcoloIva = prezzi.map((element) => (element * 22) / 100 + element);
 console.log(calcoloIva);
 
 
+// data una lista di punteggi di un test di selezione, trova i candidati con punteggio ≥ 70
+
+
+const punteggi = [20, 76, 88, 54, 69, 23, 11, 89];
+
+
+const punteggiAlti = punteggi.filter((element) => element >= 70);
+
+console.log(punteggiAlti);
+
+
+
 
 
 
