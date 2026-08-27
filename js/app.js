@@ -147,6 +147,17 @@ const temperatureBasse = temperatureMedie.some((element) => element < 0);
 console.log(temperatureBasse);
 
 
+// data una lista di voti in trentesimi, convertili in decimi
+
+
+const votiEsami = [30, 26, 18, 30, 22, 29];
+
+const votiInDecimi = votiEsami.map((element) => (element / 3).toFixed(1));
+
+console.log(votiInDecimi);
+
+
+
 
 
 
