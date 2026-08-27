@@ -131,6 +131,14 @@ console.log(prenotazione);
 // data una lista di test (true/false), verifica se sono stati tutti superati
 
 
+const test = ['true', 'false', 'false', 'true', 'true', 'true'];
+
+const testSuperati = test.every((element) => element === 'true');
+
+console.log(testSuperati);
+
+
+
 
 
 
