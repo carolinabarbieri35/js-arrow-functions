@@ -138,6 +138,18 @@ const testSuperati = test.every((element) => element === 'true');
 console.log(testSuperati);
 
 
+// data una lista di temperature medie giornaliere, verifica se c'è almeno un giorno in cui la temperatura è andata sotto 0
+
+const temperatureMedie = [10, 12, -2, 15, 7, 1];
+
+const temperatureBasse = temperatureMedie.some((element) => element < 0);
+
+console.log(temperatureBasse);
+
+
+
+
+
 
 
 
