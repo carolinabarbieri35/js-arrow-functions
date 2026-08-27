@@ -107,6 +107,35 @@ const oreInMinuti = oreLavorate.map((element, index) => ({
 console.table(oreInMinuti);
 
 
+// data una lista di valutazioni (1-5 stelle), trova solo le recensioni con più di 4 stelle
+
+
+const valutazioni = [1, 4, 5, 4.5, 3, 5, 2];
+
+const recensioniAlte = valutazioni.filter((element) => element > 4);
+
+console.log(recensioniAlte);
+
+
+
+// data una lista di stati di prenotazione ("confermata", "annullata", "in attesa"), trova la prima prenotazione annullata
+
+const statoPrenotazione = ['in attesa', 'in attesa', 'confermata', 'annullata', 'confermata'];
+
+const prenotazione = statoPrenotazione.findIndex((element) => element === 'annullata');
+
+console.log(prenotazione);
+
+
+
+// data una lista di test (true/false), verifica se sono stati tutti superati
+
+
+
+
+
+
+
 
 
 
